@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar,
+.hero{
+    background: #1e293b;
+}
+
+.nav-inner,
+.hero-inner,
+.features-inner{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+.nav-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+
+.logo{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links{
+    display: flex;
+    gap: 60px;
+}
+
+.links a{
+    color:#cbd5e1;
+    text-decoration: none;
+}
+
+.hero-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.hero-text{
+    color: lightgrey;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: gray;
+    width: 800px;
+    height: 200px;
+}
+
+.hero-button{
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.features{
+    text-align: center;
+    padding: 60px 0;
+    
+}
+
+.features-row{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.feature{
+    width: 160px;
+    text-align: center;
+    font-size: 15px
+}
+
+.feature-box{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #3b82f6;
+}
+
+.quote{
+    text-align: center;
+    background-color: #c9cbcd;
+    padding: 80px;
+}
+
+.quote-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.quote-author{
+    text-align: right;
+    font-weight: bold;
+    color:#1F2937;
+}
+
+.action{
+    padding: 80px 24px;
+}
+
+.action-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 80px;
+    box-sizing: border-box;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    color: white;
+}
+
+.action-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signup-text{
+    margin: 0;
+    color: #dbeafe;
+}
+
+.signup-button{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 6px 20px;
+    font-weight: bold;
+}
